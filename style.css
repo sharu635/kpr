@@ -87,6 +87,13 @@ p:hover{
      li{
         list-style: none;
      }
+     @media (max-width:468px){
+      .nav{
+         display:flex;
+         flex-direction: column;
+         color: cyan;
+      }
+     }
      
      
  

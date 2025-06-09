@@ -20,6 +20,7 @@
 </head><h1></h1><h2></h2>
 <body>
 
+
     
     <html>HTMLheadtag</body></html>
     <h1 class="select">HTML HEAD TAG</h1>
@@ -40,14 +41,34 @@
    </ul>
    <p>H<SUB>2</SUB></p>
    <P>4<SUP>2</SUP>=16</P>
-   <a href="https://www.google.co.in/" target="_blank">visit Google </a>
-   <br><a href="about.html" target="_self">About page</a>
-  <a href="form.html" target="_self">Form page</a>
-  <a href="table.html" target="_self">Table page</a>
-   <a href="port for you.html" target="_self">Port for you page</a>
+   <a href="https://www.google.co.in/" target="_blank">visit Google </a><br>
+   <br><a href="about.html" target="_self">About page</a><br>
+  <a href="form.html" target="_self">Form page</a><br>
+  <a href="table.html" target="_self">Table page</a><br>
+   <a href="port for you.html" target="_self">Port for you page</a><br>
+    <a href="parent.html" target="_self">parent page</a><br>
+     <img src= "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkS3XBHYruKiJBD3e-uIf4rKerGc-0vbjFXA&s"></img>
+     <body><input type="text" id="name">
+        <button onclick=showname()>click</button>
+        <h1 id="result"></h1>
+        <script>
+            function showname(){
+                const name=document.getElementByID('name').value
+                document.getElementByID('result').innerText=`Hello $(name)`
+
+            }
+        </script>
+
+    <script>
+        console.log('hello from script');
+        console.log(5==='5');
+        console.log(5=='5');
 
 
-  <img src= "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkS3XBHYruKiJBD3e-uIf4rKerGc-0vbjFXA&s"></img>
+
+    </script>
+    </body>
+
 
    
 </body>
